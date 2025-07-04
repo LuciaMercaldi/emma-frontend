@@ -1,0 +1,27 @@
+.DS_Store
+node_modules/
+npm-debug.log
+.idea/*
+dist/
+.env.development
+.env.production
+.directory
+.env.*
+5t.vue
+src/extra/*
+package-*.json
+src/theme/mobilitysquare/
+*:Zone.Identifier
+yearfilter.sh
+syearfilter-git-extra.sh
+entrypoint.sh
+# ignore playwright
+playwright-report
+# playwright test results
+test-results
+test/screenshots/
+!src/extra/Bilancio
+!src/extra/Coworking
+!src/extra/Parking
+!src/extra/Momarea
+supdare-git-extra.sh

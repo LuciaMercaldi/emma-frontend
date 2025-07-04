@@ -1,0 +1,18 @@
+FROM node:18-alpine as development
+
+WORKDIR /vue
+
+COPY package*.json ./
+RUN npm install
+
+RUN apk update
+RUN apk add git
+
+RUN <<EOF
+addgroup -S docker
+adduser -S --shell /bin/bash --ingroup docker vscode
+EOF
+# install Docker tools (cli, buildx, compose)
+COPY --from=gloursdocker/docker / /
+
+CMD ["sh"]

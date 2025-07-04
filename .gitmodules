@@ -1,0 +1,15 @@
+[submodule "bilancio"]
+	path = src/extra/Bilancio
+	url = git@github.com:5Tsrl/emma-frontend-bilancio.git
+
+[submodule "coworking"]
+	path = src/extra/Coworking
+	url = git@github.com:5Tsrl/emma-frontend-coworking.git
+
+[submodule "parking"]
+	path = src/extra/Parking
+	url = git@github.com:5Tsrl/emma-frontend-parking.git
+
+[submodule "momarea"]
+	path = src/extra/Momarea
+	url = git@github.com:5Tsrl/emma-frontend-momarea.git

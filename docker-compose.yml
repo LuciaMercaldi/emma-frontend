@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  moma-vue:
+    build: .
+    container_name: moma-vue
+    working_dir: /vue
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./dist:/vue/dist
+    stdin_open: true
+    tty: true
+    environment:
+      - HOST=0.0.0.0
+      - NODE_ENV=development
+      - WDS_SOCKET_HOST=127.0.0.1 #for windows
+      - CHOKIDAR_USEPOLLING=true #for windows
+      - WATCHPACK_POLLING=true #for windows
+    entrypoint: ["/bin/sh", "/vue/entrypoint.sh"]
+

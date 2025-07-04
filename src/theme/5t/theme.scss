@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+.cover-back {
+    background: url("https://api.5t.impronta48.it/Piemonte/img/5t-sfondo.jpg");
+}
+
+#questionario-fill h2 {
+    font-weight: 900;
+    color: white;
+}
+
+#questionario-fill .card .card-title {
+    font-weight: 900;
+}
+
+#questionario-fill h3 {
+    font-size: 24px;
+}
+
+.b-calendar .b-calendar-nav .btn {
+    color: black;
+}
+.table-striped {
+    // colore per le colonne dispari
+    > tbody > tr > td:nth-child(odd) {
+      background-color: #fff;
+    }
+  
+    // colore per le colonne pari
+    > tbody > tr > td:nth-child(even) {
+      background-color: #FFFCF5
+    }
+}  

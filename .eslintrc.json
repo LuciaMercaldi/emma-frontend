@@ -1,0 +1,50 @@
+{
+    "parser": "vue-eslint-parser",
+    "env": {
+        "node": true
+    },
+    "ignorePatterns": [
+        "**/ckeditor5/**",
+        "**/vendor/*.js"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/essential"
+    ],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2020,
+        "parser": "babel-eslint"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "indent": [
+            "warn", 
+        ],
+        "linebreak-style": [
+            "warn",
+            "unix"
+        ],
+        "quotes": [
+            "warn",
+            "double"
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "no-unused-vars": "warn",
+        "vue/no-mutating-props": "warn",
+        "no-prototype-builtins": "off",
+        "no-mixed-spaces-and-tabs": "warn",
+        "vue/no-unused-components": "warn",
+        "no-undef": "warn",
+        "vue/html-closing-bracket-newline": [
+            2,
+            { "multiline": "never"
+            }
+        ]
+    }
+}

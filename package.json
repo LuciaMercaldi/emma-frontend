@@ -1,0 +1,82 @@
+{
+  "name": "moma-platform",
+  "version": "1.24.1129",
+  "private": true,
+  "scripts": {
+    "build": "env-cmd -f ./.env vue-cli-service build --modern",
+    "e2e": "node test/e2e/runner.js",
+    "lint": "vue-cli-service lint",
+    "lint-fix": "vue-cli-service lint --fix",
+    "serve": "node --max_old_space_size=4096 node_modules/@vue/cli-service/bin/vue-cli-service.js serve --open",
+    "dev": "npm run serve"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.22.6",
+    "@ckeditor/ckeditor5-vue2": "^3.0.1",
+    "@kangc/v-md-editor": "^1.7.12",
+    "animate.css": "^4.1.1",
+    "axios": "^1.6.2",
+    "axios-extensions": "^3.1.6",
+    "bootstrap": "^4.6.2",
+    "bootstrap-vue": "^2.23.1",
+    "buffer": "^6.0.3",
+    "core-js": "^3.34.0",
+    "es6-promise": "^4.2.8",
+    "leaflet": "^1.9.4",
+    "leaflet-editable": "^1.2.0",
+    "leaflet-textpath": "^1.2.3",
+    "leaflet.markercluster": "^1.5.3",
+    "lodash": "^4.17.21",
+    "lodash.has": "^4.5.2",
+    "luxon": "^2.5.2",
+    "marked": "^15.0.3",
+    "mime-types": "^2.1.35",
+    "slugify": "^1.6.6",
+    "vue": "^2.7.15",
+    "vue-clickaway": "^2.2.2",
+    "vue-cookies": "^1.8.3",
+    "vue-google-charts": "^0.3.3",
+    "vue-router": "^3.6.5",
+    "vue-select": "^3.20.2",
+    "vue2-leaflet": "^2.7.1",
+    "vue2-leaflet-draw-toolbar": "^0.1.1",
+    "vue2-leaflet-markercluster": "^3.1.0",
+    "xlsx": "^0.17.5"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "css-loader": "^7.1.2",
+    "env-cmd": "^10.1.0",
+    "file-loader": "^6.2.0",
+    "git-describe": "^4.1.1",
+    "ignore-loader": "^0.1.2",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^4.3.0",
+    "prettier": "^2.8.8",
+    "sass": "^1.81.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.11.1",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "overrides": {
+    "@achrinza/node-ipc": "^10"
+  },
+  "description": "Piattaforma di Gestione del Mobility Manager",
+  "author": "massimoi@impronta48.it",
+  "engines": {
+    "node": ">= 8.1.4",
+    "npm": ">= 5.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "ie >= 11"
+  ]
+}
