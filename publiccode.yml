@@ -25,10 +25,10 @@ description:
     genericName: EMMA
     localisedName: EMMA
     longDescription: |
-      EMMA - Electronic Mobility Management Application. 
+      EMMA - 
       Manages the flow from the company survey, employees survey, mobility plan generation, impact calculation
     shortDescription: |-
-      EMMA - Electronic Mobility Management Application. 
+      EMMA - . 
       Manages the flow from the company survey, employees survey, mobility plan generation, impact calculation
   it:
     features:
