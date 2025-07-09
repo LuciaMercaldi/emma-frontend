@@ -1,7 +1,7 @@
 # FRONTEND of the EMMA Mobility Management Platform
 
 # Project Description
-EMMA is a web-based application designed and developed by 5T on behalf of Regione Piemonte: it helps the Mobility Manager to draw up the â€œSustainable Mobility Planâ€ which aims to reduce the negative impacts of commuting trips.
+EMMA is a web-based application designed and developed by 5T on behalf of Regione Piemonte: it helps the Mobility Manager to draw up the Sustainable Mobility Plan which aims to reduce the negative impacts of commuting trips.
 It is a web application, composed by a backend (this repository - written in PHP using the CakePHP frameworkd) and a frontend (EMMA-Vue, written in Vue.js 2.0).
 The backend is a REST API, which provides all the necessary functions to run the application.
 The frontend is a Single Page Application, which consumes the REST API.
